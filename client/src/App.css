@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background: #eee;
+  width: 33%;
 }
 
 .App-logo {
@@ -28,11 +29,20 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bi-trash {
+  color: red;
+  margin-left: 10px;
+}
+
+.bi {
+  float: right;
+  cursor: pointer;
+}
+
+body {
+  background: rgb(0, 58, 55);
+}
+
+.list-group-item:hover {
+  background: #eee;
 }
